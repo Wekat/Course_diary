@@ -6,17 +6,18 @@
     <title>Course Diary</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-    <body style="background-color:rgb(248, 231, 243);">
+    <body>
     <header>
-    <h1>Course Diary</h1>
+    <h1>Front End Course Diary</h1>
     </header>   
     
     <nav>
-        <ul>
-            <li>Course structure</li>
-            <li>Contact me</li>
-        </ul>
+        <a href="#course_structure">Course structure</a> |
+        <a href="#contact_form">Contact form</a> |
     </nav>
+
+    <br>
+
     <img src="image/image/theme picture.jpg" style="color: red" 
     alt="Concept picture with computer and phone" title="">
     <!--Remember to add a picture and remove title-->
@@ -26,7 +27,7 @@
 
     <main>
     <section>
-        <h2 class="section_heading">Course structure</h2>
+        <h2 class="section_heading" id="course_structure">Course structure</h2>
         <table>
         <tr>
             <th>Lesson number</th>
@@ -51,14 +52,14 @@
     </section>
 
     <section>
-        <h2 class="section_heading">Contact me</h2>
+        <h2 class="section_heading" id="contact_form">Contact me</h2>
 
         <fieldset form="form1">
             <legend>Mail box:</legend>
             <label for="email">Your e-mail:</label>
             <input type="text" id="email" name="email" placeholder="Your e-mail"><br><br>
             <label for="message">Message:</label>
-            <input type="text" id="lname" name="lname" placeholder="Your message to me">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your message to me"></textarea>
         </fieldset>
         
 

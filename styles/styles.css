@@ -1,3 +1,13 @@
+body {
+    background-color: rgb(236, 223, 226);
+}
+
+h1 {
+  background-color: #6b1515;  
+  color: azure;
+  text-align: center;
+}
+
 td, th {
     border: 1px solid #6b1515;
     text-align: left;
@@ -9,3 +19,16 @@ td, th {
     border-collapse: collapse;
     width: 100%;
   }
+
+img {
+    width: 500px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+input, textarea {
+    width: 300px;
+}
