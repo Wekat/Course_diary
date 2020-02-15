@@ -23,6 +23,10 @@ h1 {
   font-size: 50px;
 }
 
+.section_heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav_bar {
     text-decoration: none;
     color: black;
