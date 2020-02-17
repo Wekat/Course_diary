@@ -10,22 +10,22 @@
     <body>
 
     <header>
-        <h1>Front End Course Diary</h1>
+        <h1 class="site_name">Front End Course Diary</h1>
     </header> 
 
     <div class="content">
 
-    <nav>
+    <nav class="nav_bar">
         <a class="nav_bar" href="#course_structure">Course structure</a>
         <a class="nav_bar" href="#contact_form">Contact form</a>
     </nav>
 
     <br>
 
-    <section id="theme_img">
+    <section class="theme_img">
     <img src="image/code_sleep.jpg" style="color: red" 
-    alt="Concept picture with computer and phone" title="">
-    <!--Remember to add a picture and remove title-->
+    alt="Phone with text 'Eat, code, sleep, repeat'" title="">
+    
     </section>
 
     <br>
@@ -35,7 +35,7 @@
     <main>
     <section>
         <h2 class="section_heading" id="course_structure">Course structure</h2>
-        <table>
+        <table class="course_table">
         <tr>
             <th>Lesson number</th>
             <th>Topic</th>
@@ -67,12 +67,12 @@
     <section>
         <h2 class="section_heading" id="contact_form">Contact me</h2>
 
-        <fieldset form="form1">
+        <fieldset form="form1" class="form">
             <legend>Mail box:</legend>
-            <label for="email">Your e-mail:</label>
-            <input type="text" id="email" name="email" placeholder="Your e-mail"><br><br>
-            <label for="message">Message:</label>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Your message to me"></textarea>
+            <label class="label_form" for="email">Your e-mail:</label>
+            <input class="textarea_form" type="text" id="email" name="email" placeholder="Your e-mail"><br><br>
+            <label class="label_form" for="message">Message:</label>
+            <textarea class="textarea_form" name="message" id="" cols="30" rows="10" placeholder="Your message to me"></textarea>
         </fieldset>
         
 
